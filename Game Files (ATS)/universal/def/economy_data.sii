@@ -292,6 +292,12 @@ economy_data : economy.data.storage
 	currency_sign2[]: "TRY "
 	currency_sign3[]: ""
 
+	currency_code[]: "Malaysian ringgit"
+	currency_ratio[]: 0.21
+	currency_sign1[]: ""
+	currency_sign2[]: "RM "
+	currency_sign3[]: ""
+
 	currency_code[]: "Mexican peso"
 	currency_ratio[]: 20.55
 	currency_sign1[]: ""
