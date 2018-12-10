@@ -1,0 +1,11 @@
+SiiNunit
+{
+mod_package : .universal {
+	display_name: "Additional Currencies for ETS2"
+	package_version: "1.0"
+	author: "Lemon"
+	category[]: "other"
+	icon: "icon.jpg"
+	description_file: "mod_description.txt"
+}
+}
