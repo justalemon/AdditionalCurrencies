@@ -1,4 +1,4 @@
-SiiNunit
+﻿SiiNunit
 {
 economy_data : economy.data.storage
 {
@@ -269,6 +269,12 @@ economy_data : economy.data.storage
 	currency_sign1[]: ""
 	currency_sign2[]: ""
 	currency_sign3[]: " Ft"
+
+	currency_code[]: "Indonesian rupiah"
+	currency_ratio[]: 0.00006
+	currency_sign1[]: ""
+	currency_sign2[]: "Rp "
+	currency_sign3[]: ""
 
 	currency_code[]: "Japanese yen"
 	currency_ratio[]: 127.93
