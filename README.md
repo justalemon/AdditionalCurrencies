@@ -32,6 +32,9 @@ This is a mod for ETS2 and ATS that edits the economy data and adds new currenci
 - Russian ruble: _Updated_ ¹ ³
 
 ¹ Ported from ETS2 to ATS
+
 ² Ported from ATS to ETS2
+
 ³ 12/6/2018 rate
+
 ⁴ 12/10/2018 rate
