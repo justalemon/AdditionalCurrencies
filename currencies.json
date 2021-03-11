@@ -452,5 +452,21 @@
             "ats": 27,
             "ets": 27
         }
+    },
+    {
+        "name": "Sovereign Bolivar (VES)",
+        "sign": [
+            "",
+            "Bs.S ",
+            ""
+        ],
+        "rate": {
+            "usd": 1872125.00,
+            "eur": 2239660.58
+        },
+        "order": {
+            "ats": 28,
+            "ets": 28
+        }
     }
 ]
