@@ -5,6 +5,21 @@ from pathlib import Path
 import sii
 
 
+def process(*sources, output, stype, sname):
+    """
+    Processes the contents of the file(s).
+    """
+    # Make a dict and load the source content
+    content = {}
+    for source in sources:
+        with open(source) as file:
+            content.update(json.load(file))
+    # Now, save the SII content
+    sii_str = sii.from_dict(content, stype, sname)
+    with open("build/" + sys.argv[1] + output, "w") as file:
+        file.write(sii_str)
+
+
 def main():
     print(f"Arguments: {sys.argv}")
 
@@ -17,26 +32,15 @@ def main():
 
     Path("build/" + sys.argv[1] + "/universal/def").mkdir(parents=True, exist_ok=True)
 
-    with open("source/base.json") as file:
-        economy_base = json.load(file)
-    with open(f"source/base_{sys.argv[1]}.json") as file:
-        extra = json.load(file)
-    economy_base.update(extra)
-    economy = sii.from_dict(economy_base, "economy_data", "economy.data.storage")
-    with open("build/" + sys.argv[1] + "/universal/def/economy_data.sii", "w") as file:
-        file.write(economy)
-
-    with open("source/manifest.json") as file:
-        manifest_base = json.load(file)
-    manifest = sii.from_dict(manifest_base, "mod_package", ".universal")
-    with open("build/" + sys.argv[1] + "/universal/manifest.sii", "w") as file:
-        file.write(manifest)
-
-    with open("source/versions.json") as file:
-        versions_base = json.load(file)
-    versions = sii.from_dict(versions_base, "package_version_info", ".universal")
-    with open("build/" + sys.argv[1] + "/versions.sii", "w") as file:
-        file.write(versions)
+    process("source/base.json", f"source/base_{sys.argv[1]}.json",
+            output="/universal/def/economy_data.sii",
+            stype="economy_data", sname="economy.data.storage")
+    process("source/manifest.json",
+            output="/universal/manifest.sii",
+            stype="mod_package", sname=".universal")
+    process("source/versions.json",
+            output="/versions.sii",
+            stype="package_version_info", sname=".universal")
 
 
 if __name__ == "__main__":
