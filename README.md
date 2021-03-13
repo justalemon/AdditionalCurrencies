@@ -1,40 +1,27 @@
-# Aditional Currenncies for ETS2 and ATS
+# ExtraCurrencies<br>[![AppVeyor][appveyor-img]][appveyor-url] [![Patreon][patreon-img]][patreon-url] [![PayPal][paypal-img]][paypal-url] [![Discord][discord-img]][discord-url]
 
-This is a mod for ETS2 and ATS that edits the economy data and adds new currencies plus it updates existing ones.
+ExtraCurrencies (previously Additional Currencies) is a mod for Euro Truck Simulator 2 and American Truck Simulator that updates the exchange rate of existing currencies and adds new ones.
 
-## Currency changes
+## Download
 
-- Argentine peso: **New** ³
-- Australian dollar: **New** ³
-- Brazilian real: **New** ³
-- Canadian dollar: _Updated_ ² ³
-- Chilean peso: **New** ³
-- Chinese yuan: **New** ³
-- Czech koruna: _Updated_ ¹ ³
-- Danish krone: _Updated_ ¹ ³
-- Euro: _Updated_ ¹ ³
-- Hong Kong dollar: **New** ³
-- Hungarian forint: _Updated_ ¹ ³
-- Indonesian rupiah: **New** ⁴
-- Japanese yen: **New** ³
-- Singapore dollar: **New** ³
-- South Korean won: **New** ³
-- Turkish lira: **New** ³
-- Mexican peso: _Updated_ ² ³
-- Malaysian ringgit: **New** ⁴
-- New Taiwan dollar: **New** ³
-- Polish złoty: _Updated_ ¹ ³
-- Pound sterling: _Updated_ ¹ ³
-- Swedish krona: _Updated_ ¹ ³
-- Swiss franc: _Updated_ ¹ ³
-- United States dollar: _Updated_ ² ³
-- Norwegian krone: _Updated_ ¹ ³
-- Russian ruble: _Updated_ ¹ ³
+* Steam Workshop: [Euro Truck Simulator 2](https://steamcommunity.com/sharedfiles/filedetails/?id=1583535203) & [American Truck Simulator](https://steamcommunity.com/sharedfiles/filedetails/?id=1583551877)
+* [GitHub](https://github.com/justalemon/ExtraCurrencies/releases)
+* [AppVeyor](https://ci.appveyor.com/project/justalemon/extracurrencies) (experimental)
 
-¹ Ported from ETS2 to ATS
+## Installation
 
-² Ported from ATS to ETS2
+* **Steam**: Click Subscribe on the Mod Page(s) and enable it on the profile mods section
+* **Manual**: Copy the files to `<Documents Folder>\Euro Truck Simulator 2\mod` and/or `<Documents Folder>\American Truck Simulator\mod` and enable it on the profile mods section
 
-³ 12/6/2018 rate
+## Usage
 
-⁴ 12/10/2018 rate
+On your **Gameplay** options, scroll down to **Regional Settings** and change the **Displayed currency** option.
+
+[appveyor-img]: https://img.shields.io/appveyor/ci/justalemon/extracurrencies.svg?label=appveyor
+[appveyor-url]: https://ci.appveyor.com/project/justalemon/extracurrencies
+[patreon-img]: https://img.shields.io/badge/support-patreon-FF424D.svg
+[patreon-url]: https://www.patreon.com/lemonchan
+[paypal-img]: https://img.shields.io/badge/support-paypal-0079C1.svg
+[paypal-url]: https://paypal.me/justalemon
+[discord-img]: https://img.shields.io/badge/discord-join-7289DA.svg
+[discord-url]: https://discord.gg/Cf6sspj
