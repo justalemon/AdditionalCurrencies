@@ -16,7 +16,7 @@ def main():
 
     with open("source/base.json") as file:
         base = json.load(file)
-    with open(f"base_{sys.argv[1]}.json") as file:
+    with open(f"source/base_{sys.argv[1]}.json") as file:
         extra = json.load(file)
 
     base.update(extra)
