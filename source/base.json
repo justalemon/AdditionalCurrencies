@@ -17,7 +17,7 @@
     "abandoned_job_fine": 12000,
 
     "cargo_damage_cost": 5.0,
-    "cargo_damage_cost_factor": "0.04",
+    "cargo_damage_cost_factor": 0.04,
 
     "late_delivery_max_overtime": [
         2880,
