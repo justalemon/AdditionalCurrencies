@@ -18,7 +18,10 @@ after_build:
   - 7z a %APPVEYOR_PROJECT_NAME%_ATS_Steam.7z %APPVEYOR_BUILD_FOLDER%\build\ats\universal\*
   - 7z a %APPVEYOR_PROJECT_NAME%_ETS2_Mods.zip %APPVEYOR_BUILD_FOLDER%\build\ets2\*
   - 7z a %APPVEYOR_PROJECT_NAME%_ETS2_Steam.7z %APPVEYOR_BUILD_FOLDER%\build\ets2\*
-  - appveyor PushArtifact %APPVEYOR_PROJECT_NAME%*.7z
+  - appveyor PushArtifact %APPVEYOR_PROJECT_NAME%_ATS_Mods.zip
+  - appveyor PushArtifact %APPVEYOR_PROJECT_NAME%_ATS_Steam.7z
+  - appveyor PushArtifact %APPVEYOR_PROJECT_NAME%_ETS2_Mods.zip
+  - appveyor PushArtifact %APPVEYOR_PROJECT_NAME%_ETS2_Steam.7z
 
 # If this is a tag, deploy the file(s) to GitHub Releases
 deploy:
@@ -32,4 +35,3 @@ deploy:
   on:
     branch: master
     appveyor_repo_tag: true
-  
