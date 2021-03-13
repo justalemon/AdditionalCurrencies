@@ -1,0 +1,28 @@
+{
+    "default_time_zone": -360,
+    "default_time_zone_name": "MDT",
+
+    "maximum_driving_time": 840,
+    "sleeping_time": 600,
+
+    "refuel_fuel": 56.79,
+
+    "skill_distance": [
+        403.0,
+        644.0,
+        1047.0,
+        1610.0,
+        2575.0,
+        4024.0
+    ],
+
+    "reward_bonus_level": 0.01,
+
+    "free_roam_report_limit": 161,
+
+    "exp_free_roam": 0.4969,
+
+    "exp_park_double_bonus": 25,
+    "exp_park_double_bonus_medium": 150,
+    "exp_park_double_bonus_hard": 270
+}

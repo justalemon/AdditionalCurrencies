@@ -1,0 +1,28 @@
+{
+    "default_time_zone": 120,
+    "default_time_zone_name": "CEST",
+
+    "maximum_driving_time": 660,
+    "sleeping_time": 540,
+
+    "refuel_fuel": 50,
+
+    "skill_distance": [
+        250,
+        350,
+        550,
+        850,
+        1100,
+        1500
+    ],
+
+    "reward_bonus_level": 0.015,
+
+    "free_roam_report_limit": 100,
+
+    "exp_free_roam": 0.5,
+
+    "exp_park_double_bonus": 20,
+    "exp_park_double_bonus_medium": 60,
+    "exp_park_double_bonus_hard": 170
+}
