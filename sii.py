@@ -25,7 +25,7 @@ def from_dict(contents: dict, stype: str, sname: str):
         if "@" in groups and groups[3].isnumeric():
             print(f"B: Writing {name}[] as {val}")
             string += "        " + groups[0] + "[]: " + val + "\n"
-        elif isinstance(value, list):
+        elif isinstance(value, list) and "tuple" not in groups:
             print(f"B: Writing {name} as {val}")
             i = 0
             for item in value:
