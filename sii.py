@@ -1,6 +1,6 @@
 import re
 
-pattern = re.compile("([A-Za-z_]*)(@)?(tuple)?([0-9]*)?")
+pattern = re.compile("([A-Za-z_0-90-9]*)(@)?(tuple)?([0-9]*)?")
 
 
 def from_dict(contents: dict, stype: str, sname: str):
