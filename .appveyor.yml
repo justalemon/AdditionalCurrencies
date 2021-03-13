@@ -1,0 +1,35 @@
+# The Version to use and the Build Image
+version: "2.0.0.{build}"
+image: Visual Studio 2019
+
+# If this build is from a tag, use the tag as the version without the V at the start
+init:
+  - ps: if ($env:APPVEYOR_REPO_TAG -eq "true") { Update-AppveyorBuild -Version "$($env:APPVEYOR_REPO_TAG_NAME.TrimStart("v"))" }
+  - set PATH=C:\Python38-x64;C:\Python38-x64\Scripts;%PATH%
+
+# Build the SII files
+build_script:
+  - python build.py ats
+  - python build.py ets2
+
+# Package them to ZIP for the Mods directory and 7z for Steam
+after_build:
+  - 7z a %APPVEYOR_PROJECT_NAME%_ATS_Mods.zip %APPVEYOR_BUILD_FOLDER%\build\ats\universal\*
+  - 7z a %APPVEYOR_PROJECT_NAME%_ATS_Steam.7z %APPVEYOR_BUILD_FOLDER%\build\ats\universal\*
+  - 7z a %APPVEYOR_PROJECT_NAME%_ETS2_Mods.zip %APPVEYOR_BUILD_FOLDER%\build\ets2\*
+  - 7z a %APPVEYOR_PROJECT_NAME%_ETS2_Steam.7z %APPVEYOR_BUILD_FOLDER%\build\ets2\*
+  - appveyor PushArtifact %APPVEYOR_PROJECT_NAME%*.7z
+
+# If this is a tag, deploy the file(s) to GitHub Releases
+deploy:
+  release: v$(APPVEYOR_BUILD_VERSION)
+  provider: GitHub
+  auth_token:
+    secure: "DkvKC8KRj8AipGu/oWW/J2e6jMWt2xXQfKU7oefFMsp0ZMfzz+OR9Y9XpML+ZmG4"
+  artifact: /.*(?:(?:\.7z)|(?:\.zip))/
+  draft: false
+  prerelease: false
+  on:
+    branch: master
+    appveyor_repo_tag: true
+  
