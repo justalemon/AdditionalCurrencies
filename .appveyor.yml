@@ -6,6 +6,7 @@ image: Visual Studio 2019
 init:
   - ps: if ($env:APPVEYOR_REPO_TAG -eq "true") { Update-AppveyorBuild -Version "$($env:APPVEYOR_REPO_TAG_NAME.TrimStart("v"))" }
   - set PATH=C:\Python38-x64;C:\Python38-x64\Scripts;%PATH%
+  - set PYTHONIOENCODING=UTF-8
 
 # Build the SII files
 build_script:
