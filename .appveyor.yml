@@ -16,8 +16,8 @@ build_script:
 # Package them to ZIP for the Mods directory and 7z for Steam
 after_build:
   - 7z a %APPVEYOR_PROJECT_NAME%_ATS_Mods.zip %APPVEYOR_BUILD_FOLDER%\build\ats\universal\*
-  - 7z a %APPVEYOR_PROJECT_NAME%_ATS_Steam.7z %APPVEYOR_BUILD_FOLDER%\build\ats\universal\*
-  - 7z a %APPVEYOR_PROJECT_NAME%_ETS2_Mods.zip %APPVEYOR_BUILD_FOLDER%\build\ets2\*
+  - 7z a %APPVEYOR_PROJECT_NAME%_ATS_Steam.7z %APPVEYOR_BUILD_FOLDER%\build\ats\*
+  - 7z a %APPVEYOR_PROJECT_NAME%_ETS2_Mods.zip %APPVEYOR_BUILD_FOLDER%\build\ets2\universal\*
   - 7z a %APPVEYOR_PROJECT_NAME%_ETS2_Steam.7z %APPVEYOR_BUILD_FOLDER%\build\ets2\*
   - appveyor PushArtifact %APPVEYOR_PROJECT_NAME%_ATS_Mods.zip
   - appveyor PushArtifact %APPVEYOR_PROJECT_NAME%_ATS_Steam.7z
