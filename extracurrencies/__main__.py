@@ -1,25 +1,19 @@
-import sys
 from pathlib import Path
 
+from .arguments import args
 from .currencies import compile_currencies
 from .processing import process_files
 
 
 def main():
-    print(f"Arguments: {sys.argv}")
+    if hasattr(args, "help"):
+        return
 
-    if len(sys.argv) > 2:
-        print("Too Much arguments!")
-        sys.exit(2)
-    elif len(sys.argv) < 2:
-        print("Too Many arguments!")
-        sys.exit(3)
+    Path("build/" + args.game + "/universal/def").mkdir(parents=True, exist_ok=True)
 
-    Path("build/" + sys.argv[1] + "/universal/def").mkdir(parents=True, exist_ok=True)
+    currencies = compile_currencies(args.game)
 
-    currencies = compile_currencies(sys.argv[1])
-
-    process_files(["source/base.json", f"source/base_{sys.argv[1]}.json"],
+    process_files(["source/base.json", f"source/base_{args.game}.json"],
                   output="/universal/def/economy_data.sii",
                   stype="economy_data", sname="economy.data.storage",
                   extra=currencies)
