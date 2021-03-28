@@ -10,8 +10,8 @@ init:
 
 # Build the SII files
 build_script:
-  - python build.py ats
-  - python build.py ets2
+  - python -m extracurrencies ats
+  - python -m extracurrencies ets2
 
 # Package them to ZIP for the Mods directory and 7z for Steam
 after_build:
