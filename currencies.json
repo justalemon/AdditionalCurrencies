@@ -322,7 +322,7 @@
         }
     },
     {
-        "name": "Argentine Peso (BRL)",
+        "name": "Argentine Peso (ARS)",
         "sign": [
             "",
             "$",
@@ -434,7 +434,7 @@
         }
     },
     {
-        "name": "Singapore Dollar (KRW)",
+        "name": "Singapore Dollar (SGD)",
         "sign": [
             "",
             "S$",
