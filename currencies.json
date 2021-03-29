@@ -715,5 +715,44 @@
             "ats": 94.05,
             "ets2": 110.68
         }
+    },
+    {
+        "name": "Djiboutian Franc",
+        "iso": "DJF",
+        "sign": [
+            "",
+            "Fdj ",
+            ""
+        ],
+        "rate": {
+            "ats": 177.72,
+            "ets2": 209.19
+        }
+    },
+    {
+        "name": "Dominican Peso",
+        "iso": "DOP",
+        "sign": [
+            "",
+            "RD$",
+            ""
+        ],
+        "rate": {
+            "ats": 56.97,
+            "ets2": 67.04
+        }
+    },
+    {
+        "name": "Algerian Dinar",
+        "iso": "DZD",
+        "sign": [
+            "",
+            "DA",
+            ""
+        ],
+        "rate": {
+            "ats": 133.81,
+            "ets2": 157.47
+        }
     }
 ]
