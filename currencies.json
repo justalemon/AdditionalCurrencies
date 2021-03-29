@@ -1027,5 +1027,31 @@
             "ats": 127.50,
             "ets2": 150.01
         }
+    },
+    {
+        "name": "Jamaican Dollar",
+        "iso": "JMD",
+        "sign": [
+            "",
+            "J$",
+            ""
+        ],
+        "rate": {
+            "ats": 145.52,
+            "ets2": 171.20
+        }
+    },
+    {
+        "name": "Jordanian Dinar",
+        "iso": "JOD",
+        "sign": [
+            "",
+            "",
+            " JD"
+        ],
+        "rate": {
+            "ats": 0.71,
+            "ets2": 0.83
+        }
     }
 ]
