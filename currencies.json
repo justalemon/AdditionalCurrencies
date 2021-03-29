@@ -1,6 +1,7 @@
 [
     {
-        "name": "Euro (EUR)",
+        "name": "Euro",
+        "iso": "EUR",
         "sign": [
             "",
             "€",
@@ -9,14 +10,11 @@
         "rate": {
             "ats": 0.84,
             "ets2": 1
-        },
-        "order": {
-            "ats": 3,
-            "ets2": 0
         }
     },
     {
-        "name": "Swiss Franc (CHF)",
+        "name": "Swiss Franc",
+        "iso": "CHF",
         "sign": [
             "",
             "",
@@ -25,14 +23,11 @@
         "rate": {
             "ats": 0.93,
             "ets2": 1.11
-        },
-        "order": {
-            "ats": 4,
-            "ets2": 1
         }
     },
     {
-        "name": "Czech Koruna (CZK)",
+        "name": "Czech Koruna",
+        "iso": "CZK",
         "sign": [
             "",
             "",
@@ -41,14 +36,11 @@
         "rate": {
             "ats": 21.93,
             "ets2": 26.24
-        },
-        "order": {
-            "ats": 5,
-            "ets2": 2
         }
     },
     {
-        "name": "British Pound (GBP)",
+        "name": "British Pound",
+        "iso": "GBP",
         "sign": [
             "",
             "",
@@ -57,14 +49,11 @@
         "rate": {
             "ats": 0.72,
             "ets2": 0.86
-        },
-        "order": {
-            "ats": 6,
-            "ets2": 3
         }
     },
     {
-        "name": "Polish Zloty (PLN)",
+        "name": "Polish Zloty",
+        "iso": "PLN",
         "sign": [
             "",
             "",
@@ -73,14 +62,11 @@
         "rate": {
             "ats": 3.83,
             "ets2": 4.58
-        },
-        "order": {
-            "ats": 7,
-            "ets2": 4
         }
     },
     {
-        "name": "Hungarian Forint (HUF)",
+        "name": "Hungarian Forint",
+        "iso": "HUF",
         "sign": [
             "",
             "",
@@ -89,14 +75,11 @@
         "rate": {
             "ats": 306.08,
             "ets2": 366.32
-        },
-        "order": {
-            "ats": 8,
-            "ets2": 5
         }
     },
     {
-        "name": "Danish Krone (DKK)",
+        "name": "Danish Krone",
+        "iso": "DKK",
         "sign": [
             "",
             "",
@@ -105,14 +88,11 @@
         "rate": {
             "ats": 6.22,
             "ets2": 7.44
-        },
-        "order": {
-            "ats": 9,
-            "ets2": 6
         }
     },
     {
-        "name": "Swedish Krona (SEK)",
+        "name": "Swedish Krona",
+        "iso": "SEK",
         "sign": [
             "",
             "",
@@ -121,14 +101,11 @@
         "rate": {
             "ats": 8.45,
             "ets2": 10.12
-        },
-        "order": {
-            "ats": 10,
-            "ets2": 7
         }
     },
     {
-        "name": "Norwegian Krone (NOK)",
+        "name": "Norwegian Krone",
+        "iso": "NOK",
         "sign": [
             "",
             "",
@@ -137,14 +114,11 @@
         "rate": {
             "ats": 8.40,
             "ets2": 10.04
-        },
-        "order": {
-            "ats": 11,
-            "ets2": 8
         }
     },
     {
-        "name": "Russian Ruble (RUB)",
+        "name": "Russian Ruble",
+        "iso": "RUB",
         "sign": [
             "",
             "₽",
@@ -153,14 +127,11 @@
         "rate": {
             "ats": 73.59,
             "ets2": 87.94
-        },
-        "order": {
-            "ats": 12,
-            "ets2": 9
         }
     },
     {
-        "name": "Bulgarian Lev (BGN)",
+        "name": "Bulgarian Lev",
+        "iso": "BGN",
         "sign": [
             "",
             "лв",
@@ -169,14 +140,11 @@
         "rate": {
             "ats": 1.63,
             "ets2": 1.96
-        },
-        "order": {
-            "ats": 13,
-            "ets2": 10
         }
     },
     {
-        "name": "Romanian Leu (RON)",
+        "name": "Romanian Leu",
+        "iso": "RON",
         "sign": [
             "",
             "",
@@ -185,14 +153,11 @@
         "rate": {
             "ats": 4.08,
             "ets2": 4.88
-        },
-        "order": {
-            "ats": 14,
-            "ets2": 11
         }
     },
     {
-        "name": "Turkish Lira (TRY)",
+        "name": "Turkish Lira",
+        "iso": "TRY",
         "sign": [
             "",
             "₺",
@@ -201,15 +166,12 @@
         "rate": {
             "ats": 7.45,
             "ets2": 8.92
-        },
-        "order": {
-            "ats": 15,
-            "ets2": 12
         }
     },
 
     {
-        "name": "United States Dollar (USD)",
+        "name": "United States Dollar",
+        "iso": "USD",
         "sign": [
             "",
             "$",
@@ -218,14 +180,11 @@
         "rate": {
             "ats": 1,
             "ets2": 1.20
-        },
-        "order": {
-            "ats": 0,
-            "ets2": 13
         }
     },
     {
-        "name": "Canadian Dollar (CAD)",
+        "name": "Canadian Dollar",
+        "iso": "CAD",
         "sign": [
             "",
             "$",
@@ -234,14 +193,11 @@
         "rate": {
             "ats": 1.26,
             "ets2": 1.51
-        },
-        "order": {
-            "ats": 1,
-            "ets2": 14
         }
     },
     {
-        "name": "Mexican Peso (MXN)",
+        "name": "Mexican Peso",
+        "iso": "MXN",
         "sign": [
             "",
             "$",
@@ -250,15 +206,12 @@
         "rate": {
             "ats": 20.81,
             "ets2": 24.90
-        },
-        "order": {
-            "ats": 2,
-            "ets2": 15
         }
     },
 
     {
-        "name": "Japanese Yen (JPY)",
+        "name": "Japanese Yen",
+        "iso": "JPY",
         "sign": [
             "",
             "JPY ",
@@ -267,14 +220,11 @@
         "rate": {
             "ats": 108.46,
             "ets2": 129.77
-        },
-        "order": {
-            "ats": 16,
-            "ets2": 16
         }
     },
     {
-        "name": "Chinese Yuan/Renminbi (CNY)",
+        "name": "Chinese Yuan/Renminbi",
+        "iso": "CNY",
         "sign": [
             "",
             "元",
@@ -283,14 +233,11 @@
         "rate": {
             "ats": 6.49,
             "ets2": 7.76
-        },
-        "order": {
-            "ats": 17,
-            "ets2": 17
         }
     },
     {
-        "name": "Chilean Peso (CLP)",
+        "name": "Chilean Peso",
+        "iso": "CLP",
         "sign": [
             "",
             "$",
@@ -299,14 +246,11 @@
         "rate": {
             "ats": 724.40,
             "ets2": 866.53
-        },
-        "order": {
-            "ats": 18,
-            "ets2": 18
         }
     },
     {
-        "name": "Brazilian Real (BRL)",
+        "name": "Brazilian Real",
+        "iso": "BRL",
         "sign": [
             "",
             "R$",
@@ -315,14 +259,11 @@
         "rate": {
             "ats": 5.67,
             "ets2": 6.79
-        },
-        "order": {
-            "ats": 19,
-            "ets2": 19
         }
     },
     {
-        "name": "Argentine Peso (ARS)",
+        "name": "Argentine Peso",
+        "iso": "ARS",
         "sign": [
             "",
             "$",
@@ -331,14 +272,11 @@
         "rate": {
             "ats": 90.70,
             "ets2": 108.52
-        },
-        "order": {
-            "ats": 20,
-            "ets2": 20
         }
     },
     {
-        "name": "Australian Dollar (AUD)",
+        "name": "Australian Dollar",
+        "iso": "AUD",
         "sign": [
             "",
             "A$",
@@ -347,14 +285,11 @@
         "rate": {
             "ats": 1.29,
             "ets2": 1.54
-        },
-        "order": {
-            "ats": 21,
-            "ets2": 21
         }
     },
     {
-        "name": "Hong Kong Dollar (HKD)",
+        "name": "Hong Kong Dollar",
+        "iso": "HKD",
         "sign": [
             "",
             "HK$",
@@ -363,14 +298,11 @@
         "rate": {
             "ats": 7.76,
             "ets2": 9.28
-        },
-        "order": {
-            "ats": 22,
-            "ets2": 22
         }
     },
     {
-        "name": "Indonesian Rupiah (IDR)",
+        "name": "Indonesian Rupiah",
+        "iso": "IDR",
         "sign": [
             "",
             "Rp ",
@@ -379,14 +311,11 @@
         "rate": {
             "ats": 14301.40,
             "ets2": 17107.76
-        },
-        "order": {
-            "ats": 23,
-            "ets2": 23
         }
     },
     {
-        "name": "Malaysian Ringgit (MYR)",
+        "name": "Malaysian Ringgit",
+        "iso": "MYR",
         "sign": [
             "",
             "RM",
@@ -395,14 +324,11 @@
         "rate": {
             "ats": 4.11,
             "ets2": 4.91
-        },
-        "order": {
-            "ats": 24,
-            "ets2": 24
         }
     },
     {
-        "name": "New Taiwan Dollar (TWD)",
+        "name": "New Taiwan Dollar",
+        "iso": "TWD",
         "sign": [
             "",
             "NT$",
@@ -411,14 +337,11 @@
         "rate": {
             "ats": 28.14,
             "ets2": 33.67
-        },
-        "order": {
-            "ats": 25,
-            "ets2": 25
         }
     },
     {
-        "name": "South Korean Won (KRW)",
+        "name": "South Korean Won",
+        "iso": "KRW",
         "sign": [
             "",
             "KRW ",
@@ -427,14 +350,11 @@
         "rate": {
             "ats": 1130.79,
             "ets2": 1353.32
-        },
-        "order": {
-            "ats": 26,
-            "ets2": 26
         }
     },
     {
-        "name": "Singapore Dollar (SGD)",
+        "name": "Singapore Dollar",
+        "iso": "SGD",
         "sign": [
             "",
             "S$",
@@ -443,14 +363,11 @@
         "rate": {
             "ats": 0.75,
             "ets2": 1.60
-        },
-        "order": {
-            "ats": 27,
-            "ets2": 27
         }
     },
     {
-        "name": "Sovereign Bolivar (VES)",
+        "name": "Sovereign Bolivar",
+        "iso": "VES",
         "sign": [
             "",
             "Bs.S ",
@@ -459,14 +376,11 @@
         "rate": {
             "ats": 1872125.00,
             "ets2": 2239660.58
-        },
-        "order": {
-            "ats": 28,
-            "ets2": 28
         }
     },
     {
-        "name": "UAE Dirham (AED)",
+        "name": "UAE Dirham",
+        "iso": "AED",
         "sign": [
             "",
             "AED ",
@@ -475,14 +389,11 @@
         "rate": {
             "ats": 3.67,
             "ets2": 4.32
-        },
-        "order": {
-            "ats": 29,
-            "ets2": 29
         }
     },
     {
-        "name": "Afghan Afghani (AFN)",
+        "name": "Afghan Afghani",
+        "iso": "AFN",
         "sign": [
             "",
             "Af ",
@@ -491,14 +402,11 @@
         "rate": {
             "ats": 77.25,
             "ets2": 90.96
-        },
-        "order": {
-            "ats": 30,
-            "ets2": 30
         }
     },
     {
-        "name": "Albanian Lek (ALL)",
+        "name": "Albanian Lek",
+        "iso": "ALL",
         "sign": [
             "",
             "L ",
@@ -507,14 +415,11 @@
         "rate": {
             "ats": 104.60,
             "ets2": 123.14
-        },
-        "order": {
-            "ats": 31,
-            "ets2": 31
         }
     },
     {
-        "name": "Armenian Dram (AMD)",
+        "name": "Armenian Dram",
+        "iso": "AMD",
         "sign": [
             "",
             "֏",
@@ -523,14 +428,11 @@
         "rate": {
             "ats": 530.08,
             "ets2": 624.07
-        },
-        "order": {
-            "ats": 32,
-            "ets2": 32
         }
     },
     {
-        "name": "Netherlands Antillean Guilder (ANG)",
+        "name": "Netherlands Antillean Guilder",
+        "iso": "ANG",
         "sign": [
             "",
             "NAƒ",
@@ -539,14 +441,11 @@
         "rate": {
             "ats": 1.80,
             "ets2": 2.11
-        },
-        "order": {
-            "ats": 33,
-            "ets2": 33
         }
     },
     {
-        "name": "Angolan Kwanza (AOA)",
+        "name": "Angolan Kwanza",
+        "iso": "AOA",
         "sign": [
             "",
             "Kz ",
@@ -555,14 +454,11 @@
         "rate": {
             "ats": 626.17,
             "ets2": 737.04
-        },
-        "order": {
-            "ats": 34,
-            "ets2": 34
         }
     },
     {
-        "name": "Aruban Florin (AWG)",
+        "name": "Aruban Florin",
+        "iso": "AWG",
         "sign": [
             "",
             "Afl.",
@@ -571,14 +467,11 @@
         "rate": {
             "ats": 1.80,
             "ets2": 2.12
-        },
-        "order": {
-            "ats": 35,
-            "ets2": 35
         }
     },
     {
-        "name": "Azerbaijani Manat (AZN)",
+        "name": "Azerbaijani Manat",
+        "iso": "AZN",
         "sign": [
             "",
             "",
@@ -587,10 +480,6 @@
         "rate": {
             "ats": 1.70,
             "ets2": 2.00
-        },
-        "order": {
-            "ats": 36,
-            "ets2": 36
         }
     }
 ]
