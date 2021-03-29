@@ -793,5 +793,31 @@
             "ats": 40.20,
             "ets2": 47.30
         }
+    },
+    {
+        "name": "Fiji Dollar",
+        "iso": "FJD",
+        "sign": [
+            "",
+            "FJ$",
+            ""
+        ],
+        "rate": {
+            "ats": 2.07,
+            "ets2": 2.44
+        }
+    },
+    {
+        "name": "Falkland Islands Pound",
+        "iso": "FKP",
+        "sign": [
+            "",
+            "FK£",
+            ""
+        ],
+        "rate": {
+            "ats": 0.72,
+            "ets2": 0.85
+        }
     }
 ]
