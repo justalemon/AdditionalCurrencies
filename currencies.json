@@ -637,5 +637,83 @@
             "ats": 2.02,
             "ets2": 2.37
         }
+    },
+    {
+        "name": "Belize Dollar",
+        "iso": "BZD",
+        "sign": [
+            "",
+            "BZ$",
+            ""
+        ],
+        "rate": {
+            "ats": 2.02,
+            "ets2": 2.37
+        }
+    },
+    {
+        "name": "Congolese Franc",
+        "iso": "CDF",
+        "sign": [
+            "",
+            "FC ",
+            ""
+        ],
+        "rate": {
+            "ats": 1998.00,
+            "ets2": 2351.41
+        }
+    },
+    {
+        "name": "Colombian Peso",
+        "iso": "COP",
+        "sign": [
+            "",
+            "COL$",
+            ""
+        ],
+        "rate": {
+            "ats": 3718.99,
+            "ets2": 4376.84
+        }
+    },
+    {
+        "name": "Costa Rican Colon",
+        "iso": "CRC",
+        "sign": [
+            "",
+            "",
+            " CRC"
+        ],
+        "rate": {
+            "ats": 612.83,
+            "ets2": 721.36
+        }
+    },
+    {
+        "name": "Cuban Peso",
+        "iso": "CUP",
+        "sign": [
+            "",
+            "$",
+            ""
+        ],
+        "rate": {
+            "ats": 24.01,
+            "ets2": 28.25
+        }
+    },
+    {
+        "name": "Cape Verdean Escudo",
+        "iso": "CVE",
+        "sign": [
+            "",
+            "",
+            "$"
+        ],
+        "rate": {
+            "ats": 94.05,
+            "ets2": 110.68
+        }
     }
 ]
