@@ -305,7 +305,7 @@
         "iso": "IDR",
         "sign": [
             "",
-            "Rp ",
+            "Rp",
             ""
         ],
         "rate": {
@@ -922,6 +922,45 @@
         "rate": {
             "ats": 209.13,
             "ets2": 246.06
+        }
+    },
+    {
+        "name": "Honduran Lempira",
+        "iso": "HNL",
+        "sign": [
+            "",
+            "L",
+            ""
+        ],
+        "rate": {
+            "ats": 24.15,
+            "ets2": 28.41
+        }
+    },
+    {
+        "name": "Croatian Kuna",
+        "iso": "HRK",
+        "sign": [
+            "",
+            "",
+            " kn"
+        ],
+        "rate": {
+            "ats": 6.44,
+            "ets2": 7.57
+        }
+    },
+    {
+        "name": "Haitian Gourde",
+        "iso": "HTG",
+        "sign": [
+            "",
+            "",
+            "G"
+        ],
+        "rate": {
+            "ats": 80.19,
+            "ets2": 94.34
         }
     }
 ]
