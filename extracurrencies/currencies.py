@@ -1,6 +1,8 @@
 import json
 import sys
 
+from colorama import Fore, Style
+
 
 def compile_currencies(game):
     """
@@ -28,7 +30,8 @@ def compile_currencies(game):
     i = 1
 
     for currency in currencies:
-        print("Adding currency " + currency["name"] + " on slot " + str(currency["order"][game]))
+        print(f"Adding currency {Fore.GREEN}" + currency["name"] + f"{Style.RESET_ALL} on slot "
+              f"{Fore.LIGHTMAGENTA_EX}" + str(currency["order"][game]) + f"{Style.RESET_ALL}")
 
         if currency["order"][game] in slots:
             print("Currency with ID of " + currency["order"][game] + " is already present!")

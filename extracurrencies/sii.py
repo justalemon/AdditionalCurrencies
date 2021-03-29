@@ -1,6 +1,15 @@
 import re
 
+from colorama import Fore, Style
+
+from .arguments import args
+
 pattern = re.compile("([A-Za-z_0-90-9]*)(@)?(tuple)?([0-9]*)?")
+
+
+def vprint(text):
+    if args.verbose:
+        print(text)
 
 
 def from_dict(contents: dict, stype: str, sname: str):
@@ -23,19 +32,18 @@ def from_dict(contents: dict, stype: str, sname: str):
             val = str(value)
 
         if "@" in groups and groups[3].isnumeric():
-            print(f"B: Writing {name}[] as {val}")
+            vprint(f"Writing to SII: {Fore.LIGHTCYAN_EX}{name}[]: {val}{Style.RESET_ALL}")
             string += "        " + groups[0] + "[]: " + val + "\n"
         elif isinstance(value, list) and "tuple" not in groups:
-            print(f"B: Writing {name} as {val}")
             i = 0
             for item in value:
                 if isinstance(item, list):
                     item = tuple(item)
-                print(f"L: Writing {name}[{i}] as {item}")
+                vprint(f"Writing to SII: {Fore.LIGHTCYAN_EX}{name}[{i}]: {item}{Style.RESET_ALL}")
                 string += "        " + groups[0] + f"[{i}]: " + str(item) + "\n"
                 i += 1
         else:
-            print(f"B: Writing {name} as {val}")
+            vprint(f"Writing to SII: {Fore.LIGHTCYAN_EX}{name}: {val}{Style.RESET_ALL}")
             string += "        " + groups[0] + ": " + val + "\n"
 
     string += "    }\n}\n"

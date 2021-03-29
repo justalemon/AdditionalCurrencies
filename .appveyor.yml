@@ -8,9 +8,15 @@ init:
   - set PATH=C:\Python38-x64;C:\Python38-x64\Scripts;%PATH%
   - set PYTHONIOENCODING=UTF-8
 
+# Restore Git Submodules and NuGet Packages
+install:
+  - git submodule update --init --recursive
+  - python -m pip install -U pip
+  - pip install -r requirements.txt
+
 # Build the SII files
 build_script:
-  - python -m extracurrencies ats ets2
+  - python -m extracurrencies ats ets2 --verbose
 
 # Package them to ZIP for the Mods directory and 7z for Steam
 after_build:
