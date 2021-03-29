@@ -464,5 +464,133 @@
             "ats": 28,
             "ets2": 28
         }
+    },
+    {
+        "name": "UAE Dirham (AED)",
+        "sign": [
+            "",
+            "AED ",
+            ""
+        ],
+        "rate": {
+            "ats": 3.67,
+            "ets2": 4.32
+        },
+        "order": {
+            "ats": 29,
+            "ets2": 29
+        }
+    },
+    {
+        "name": "Afghan Afghani (AFN)",
+        "sign": [
+            "",
+            "Af ",
+            ""
+        ],
+        "rate": {
+            "ats": 77.25,
+            "ets2": 90.96
+        },
+        "order": {
+            "ats": 30,
+            "ets2": 30
+        }
+    },
+    {
+        "name": "Albanian Lek (ALL)",
+        "sign": [
+            "",
+            "L ",
+            ""
+        ],
+        "rate": {
+            "ats": 104.60,
+            "ets2": 123.14
+        },
+        "order": {
+            "ats": 31,
+            "ets2": 31
+        }
+    },
+    {
+        "name": "Armenian Dram (AMD)",
+        "sign": [
+            "",
+            "֏",
+            ""
+        ],
+        "rate": {
+            "ats": 530.08,
+            "ets2": 624.07
+        },
+        "order": {
+            "ats": 32,
+            "ets2": 32
+        }
+    },
+    {
+        "name": "Netherlands Antillean Guilder (ANG)",
+        "sign": [
+            "",
+            "NAƒ",
+            ""
+        ],
+        "rate": {
+            "ats": 1.80,
+            "ets2": 2.11
+        },
+        "order": {
+            "ats": 33,
+            "ets2": 33
+        }
+    },
+    {
+        "name": "Angolan Kwanza (AOA)",
+        "sign": [
+            "",
+            "Kz ",
+            ""
+        ],
+        "rate": {
+            "ats": 626.17,
+            "ets2": 737.04
+        },
+        "order": {
+            "ats": 34,
+            "ets2": 34
+        }
+    },
+    {
+        "name": "Aruban Florin (AWG)",
+        "sign": [
+            "",
+            "Afl.",
+            ""
+        ],
+        "rate": {
+            "ats": 1.80,
+            "ets2": 2.12
+        },
+        "order": {
+            "ats": 35,
+            "ets2": 35
+        }
+    },
+    {
+        "name": "Azerbaijani Manat (AZN)",
+        "sign": [
+            "",
+            "",
+            " AZN"
+        ],
+        "rate": {
+            "ats": 1.70,
+            "ets2": 2.00
+        },
+        "order": {
+            "ats": 36,
+            "ets2": 36
+        }
     }
 ]
