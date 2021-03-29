@@ -962,5 +962,70 @@
             "ats": 80.19,
             "ets2": 94.34
         }
+    },
+    {
+        "name": "Israeli New Shekel",
+        "iso": "ILS",
+        "sign": [
+            "",
+            "",
+            " NIS"
+        ],
+        "rate": {
+            "ats": 3.33,
+            "ets2": 3.92
+        }
+    },
+    {
+        "name": "Indian Rupee",
+        "iso": "INR",
+        "sign": [
+            "",
+            "Rs ",
+            ""
+        ],
+        "rate": {
+            "ats": 72.74,
+            "ets2": 85.58
+        }
+    },
+    {
+        "name": "Iraqi Dinar",
+        "iso": "IQD",
+        "sign": [
+            "",
+            "",
+            " IQD"
+        ],
+        "rate": {
+            "ats": 1462.00,
+            "ets2": 1720.12
+        }
+    },
+    {
+        "name": "Iranian Rial",
+        "iso": "IRR",
+        "sign": [
+            "",
+            "",
+            " IRR"
+        ],
+        "rate": {
+            "ats": 42105.00,
+            "ets2": 49534.43
+        }
+    },
+    {
+        "name": "Icelandic Krona",
+        "iso": "ISK",
+        "sign": [
+            "",
+            "",
+            " kr"
+        ],
+        "rate": {
+            "ats": 127.50,
+            "ets2": 150.01
+        }
     }
 ]
