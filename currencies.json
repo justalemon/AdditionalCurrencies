@@ -1170,5 +1170,96 @@
             "ats": 424.65,
             "ets2": 499.94
         }
+    },
+    {
+        "name": "Lao Kip",
+        "iso": "LAK",
+        "sign": [
+            "",
+            "",
+            " K"
+        ],
+        "rate": {
+            "ats": 9395.00,
+            "ets2": 11056.79
+        }
+    },
+    {
+        "name": "Lao Kip",
+        "iso": "LAK",
+        "sign": [
+            "",
+            "",
+            " K"
+        ],
+        "rate": {
+            "ats": 9395.00,
+            "ets2": 11056.79
+        }
+    },
+    {
+        "name": "Lebanese Pound",
+        "iso": "LBP",
+        "sign": [
+            "",
+            "",
+            " LL"
+        ],
+        "rate": {
+            "ats": 1514.46,
+            "ets2": 1782.33
+        }
+    },
+    {
+        "name": "Sri Lankan Rupee",
+        "iso": "LKR",
+        "sign": [
+            "",
+            "Rs ",
+            ""
+        ],
+        "rate": {
+            "ats": 199.10,
+            "ets2": 234.33
+        }
+    },
+    {
+        "name": "Liberian Dollar",
+        "iso": "LRD",
+        "sign": [
+            "",
+            "LD$",
+            ""
+        ],
+        "rate": {
+            "ats": 173.00,
+            "ets2": 203.65
+        }
+    },
+    {
+        "name": "Lesotho Loti",
+        "iso": "LSL",
+        "sign": [
+            "",
+            "M",
+            ""
+        ],
+        "rate": {
+            "ats": 14.99,
+            "ets2": 17.64
+        }
+    },
+    {
+        "name": "Libyan Dinar",
+        "iso": "LYD",
+        "sign": [
+            "",
+            "",
+            " LD"
+        ],
+        "rate": {
+            "ats": 4.52,
+            "ets2": 5.32
+        }
     }
 ]
