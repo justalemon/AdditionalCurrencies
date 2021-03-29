@@ -1053,5 +1053,122 @@
             "ats": 0.71,
             "ets2": 0.83
         }
+    },
+    {
+        "name": "Kenyan Shilling",
+        "iso": "KES",
+        "sign": [
+            "",
+            "KSh ",
+            ""
+        ],
+        "rate": {
+            "ats": 109.70,
+            "ets2": 129.08
+        }
+    },
+    {
+        "name": "Kyrgyzstani Som",
+        "iso": "KGS",
+        "sign": [
+            "",
+            "",
+            " KGS"
+        ],
+        "rate": {
+            "ats": 84.78,
+            "ets2": 99.76
+        }
+    },
+    {
+        "name": "Cambodian Riel",
+        "iso": "KHR",
+        "sign": [
+            "",
+            "",
+            " KHR"
+        ],
+        "rate": {
+            "ats": 4045.00,
+            "ets2": 4759.75
+        }
+    },
+    {
+        "name": "Comorian Franc",
+        "iso": "KMF",
+        "sign": [
+            "",
+            "CF ",
+            ""
+        ],
+        "rate": {
+            "ats": 418.65,
+            "ets2": 492.73
+        }
+    },
+    {
+        "name": "North Korean Won",
+        "iso": "KPW",
+        "sign": [
+            "",
+            "",
+            " KPW"
+        ],
+        "rate": {
+            "ats": 899.96,
+            "ets2": 1060.28
+        }
+    },
+    {
+        "name": "North Korean Won",
+        "iso": "KPW",
+        "sign": [
+            "",
+            "",
+            " KPW"
+        ],
+        "rate": {
+            "ats": 899.96,
+            "ets2": 1060.28
+        }
+    },
+    {
+        "name": "Kuwaiti Dinar",
+        "iso": "KWD",
+        "sign": [
+            "",
+            "KD ",
+            ""
+        ],
+        "rate": {
+            "ats": 0.30,
+            "ets2": 0.36
+        }
+    },
+    {
+        "name": "Cayman Islands Dollar",
+        "iso": "KYD",
+        "sign": [
+            "",
+            "CI$",
+            ""
+        ],
+        "rate": {
+            "ats": 0.83,
+            "ets2": 0.98
+        }
+    },
+    {
+        "name": "Kazakhstani Tenge",
+        "iso": "KZT",
+        "sign": [
+            "",
+            "",
+            " KZT"
+        ],
+        "rate": {
+            "ats": 424.65,
+            "ets2": 499.94
+        }
     }
 ]
