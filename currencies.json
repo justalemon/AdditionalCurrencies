@@ -754,5 +754,44 @@
             "ats": 133.81,
             "ets2": 157.47
         }
+    },
+    {
+        "name": "Egyptian Pound",
+        "iso": "EGP",
+        "sign": [
+            "",
+            "E£",
+            ""
+        ],
+        "rate": {
+            "ats": 15.70,
+            "ets2": 18.47
+        }
+    },
+    {
+        "name": "Eritrean Nakfa",
+        "iso": "ERN",
+        "sign": [
+            "",
+            "Nkf ",
+            ""
+        ],
+        "rate": {
+            "ats": 15.00,
+            "ets2": 17.67
+        }
+    },
+    {
+        "name": "Ethiopian Birr",
+        "iso": "ETB",
+        "sign": [
+            "",
+            "Br ",
+            ""
+        ],
+        "rate": {
+            "ats": 40.20,
+            "ets2": 47.30
+        }
     }
 ]
