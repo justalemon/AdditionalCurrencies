@@ -481,5 +481,161 @@
             "ats": 1.70,
             "ets2": 2.00
         }
+    },
+    {
+        "name": "Bosnia and Herzegovina Convertible Mark",
+        "iso": "BAM",
+        "sign": [
+            "",
+            "KM",
+            ""
+        ],
+        "rate": {
+            "ats": 1.66,
+            "ets2": 1.96
+        }
+    },
+    {
+        "name": "Barbadian Dollar",
+        "iso": "BBD",
+        "sign": [
+            "",
+            "Bds$",
+            ""
+        ],
+        "rate": {
+            "ats": 2.02,
+            "ets2": 2.38
+        }
+    },
+    {
+        "name": "Bangladeshi Taka",
+        "iso": "BDT",
+        "sign": [
+            "",
+            "Tk ",
+            ""
+        ],
+        "rate": {
+            "ats": 84.84,
+            "ets2": 99.81
+        }
+    },
+    {
+        "name": "Bahraini Dinar",
+        "iso": "BHD",
+        "sign": [
+            "",
+            "BD ",
+            ""
+        ],
+        "rate": {
+            "ats": 84.84,
+            "ets2": 99.81
+        }
+    },
+    {
+        "name": "Bermudian Dollar",
+        "iso": "BMD",
+        "sign": [
+            "",
+            "BD$",
+            ""
+        ],
+        "rate": {
+            "ats": 1,
+            "ets2": 1.18
+        }
+    },
+    {
+        "name": "Brunei Dollar",
+        "iso": "BND",
+        "sign": [
+            "",
+            "B$",
+            ""
+        ],
+        "rate": {
+            "ats": 1.35,
+            "ets2": 1.58
+        }
+    },
+    {
+        "name": "Boliviano",
+        "iso": "BOB",
+        "sign": [
+            "",
+            "Bs",
+            ""
+        ],
+        "rate": {
+            "ats": 6.91,
+            "ets2": 8.13
+        }
+    },
+    {
+        "name": "Bahamian Dollar",
+        "iso": "BSD",
+        "sign": [
+            "",
+            "B$",
+            ""
+        ],
+        "rate": {
+            "ats": 1,
+            "ets2": 1.18
+        }
+    },
+    {
+        "name": "Bhutanese Ngultrum",
+        "iso": "BTN",
+        "sign": [
+            "",
+            "Nu.",
+            ""
+        ],
+        "rate": {
+            "ats": 72.66,
+            "ets2": 85.48
+        }
+    },
+    {
+        "name": "Botswana Pula",
+        "iso": "BWP",
+        "sign": [
+            "",
+            "P",
+            ""
+        ],
+        "rate": {
+            "ats": 11.10,
+            "ets2": 13.06
+        }
+    },
+    {
+        "name": "Belarusian Ruble",
+        "iso": "BYN",
+        "sign": [
+            "",
+            "Br ",
+            ""
+        ],
+        "rate": {
+            "ats": 2.63,
+            "ets2": 3.09
+        }
+    },
+    {
+        "name": "Belize Dollar",
+        "iso": "BZD",
+        "sign": [
+            "",
+            "BZ$",
+            ""
+        ],
+        "rate": {
+            "ats": 2.02,
+            "ets2": 2.37
+        }
     }
 ]
