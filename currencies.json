@@ -819,5 +819,109 @@
             "ats": 0.72,
             "ets2": 0.85
         }
+    },
+    {
+        "name": "Falkland Islands Pound",
+        "iso": "FKP",
+        "sign": [
+            "",
+            "FK£",
+            ""
+        ],
+        "rate": {
+            "ats": 0.72,
+            "ets2": 0.85
+        }
+    },
+    {
+        "name": "Georgian Lari",
+        "iso": "GEL",
+        "sign": [
+            "",
+            "GEL",
+            ""
+        ],
+        "rate": {
+            "ats": 3.38,
+            "ets2": 3.98
+        }
+    },
+    {
+        "name": "Ghanaian Cedi",
+        "iso": "GHS",
+        "sign": [
+            "",
+            "GH₵",
+            ""
+        ],
+        "rate": {
+            "ats": 5.78,
+            "ets2": 6.80
+        }
+    },
+    {
+        "name": "Gibraltar Pound",
+        "iso": "GIP",
+        "sign": [
+            "",
+            "G£",
+            ""
+        ],
+        "rate": {
+            "ats": 0.72,
+            "ets2": 0.85
+        }
+    },
+    {
+        "name": "Gambian Dalasi",
+        "iso": "GMD",
+        "sign": [
+            "",
+            "D",
+            ""
+        ],
+        "rate": {
+            "ats": 51.28,
+            "ets2": 60.33
+        }
+    },
+    {
+        "name": "Guinean Franc",
+        "iso": "GNF",
+        "sign": [
+            "",
+            "FG",
+            ""
+        ],
+        "rate": {
+            "ats": 10035.00,
+            "ets2": 11806.68
+        }
+    },
+    {
+        "name": "Guatemalan Quetzal",
+        "iso": "GTQ",
+        "sign": [
+            "",
+            "Q",
+            ""
+        ],
+        "rate": {
+            "ats": 7.72,
+            "ets2": 9.09
+        }
+    },
+    {
+        "name": "Guyanese Dollar",
+        "iso": "GYD",
+        "sign": [
+            "",
+            "G$",
+            ""
+        ],
+        "rate": {
+            "ats": 209.13,
+            "ets2": 246.06
+        }
     }
 ]
