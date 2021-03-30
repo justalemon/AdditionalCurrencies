@@ -248,6 +248,19 @@
         }
     },
     {
+        "name": "Chilean Unidad de Fomento",
+        "iso": "CLF",
+        "sign": [
+            "",
+            "",
+            " UF"
+        ],
+        "rate": {
+            "ats": 0.025,
+            "ets2": 0.029
+        }
+    },
+    {
         "name": "Brazilian Real",
         "iso": "BRL",
         "sign": [
@@ -2013,6 +2026,19 @@
         "rate": {
             "ats": 22.07,
             "ets2": 25.87
+        }
+    },
+    {
+        "name": "Burundian Franc",
+        "iso": "BIF",
+        "sign": [
+            "",
+            "",
+            " FBu"
+        ],
+        "rate": {
+            "ats": 1966.00,
+            "ets2": 2304.09
         }
     }
 ]
