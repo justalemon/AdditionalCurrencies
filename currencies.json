@@ -1884,5 +1884,135 @@
             "ats": 10485.00,
             "ets2": 12284.75
         }
+    },
+    {
+        "name": "Vietnamese Dong",
+        "iso": "VND",
+        "sign": [
+            "",
+            "",
+            " VND"
+        ],
+        "rate": {
+            "ats": 23075.00,
+            "ets2": 27038.13
+        }
+    },
+    {
+        "name": "Vanuatu Vatu",
+        "iso": "VUV",
+        "sign": [
+            "",
+            "",
+            "VT"
+        ],
+        "rate": {
+            "ats": 109.78,
+            "ets2": 128.63
+        }
+    },
+    {
+        "name": "Samoan Tala",
+        "iso": "WST",
+        "sign": [
+            "",
+            "WS$",
+            ""
+        ],
+        "rate": {
+            "ats": 2.54,
+            "ets2": 2.98
+        }
+    },
+    {
+        "name": "Central African CFA Franc",
+        "iso": "XAF",
+        "sign": [
+            "",
+            "",
+            " FCFA"
+        ],
+        "rate": {
+            "ats": 559.09,
+            "ets2": 655.12
+        }
+    },
+    {
+        "name": "Eastern Caribbean Dollar",
+        "iso": "XCD",
+        "sign": [
+            "",
+            "EC$",
+            ""
+        ],
+        "rate": {
+            "ats": 2.70,
+            "ets2": 3.17
+        }
+    },
+    {
+        "name": "West African CFA Franc",
+        "iso": "XOF",
+        "sign": [
+            "",
+            "",
+            " CFA"
+        ],
+        "rate": {
+            "ats": 557.50,
+            "ets2": 653.28
+        }
+    },
+    {
+        "name": "CFP Franc",
+        "iso": "XPF",
+        "sign": [
+            "",
+            "F",
+            ""
+        ],
+        "rate": {
+            "ats": 102.15,
+            "ets2": 119.70
+        }
+    },
+    {
+        "name": "Yemeni Rial",
+        "iso": "YER",
+        "sign": [
+            "",
+            "",
+            " YER"
+        ],
+        "rate": {
+            "ats": 250.35,
+            "ets2": 293.37
+        }
+    },
+    {
+        "name": "South African Rand",
+        "iso": "ZAR",
+        "sign": [
+            "",
+            "R ",
+            ""
+        ],
+        "rate": {
+            "ats": 14.91,
+            "ets2": 17.47
+        }
+    },
+    {
+        "name": "Zambian Kwacha",
+        "iso": "ZMW",
+        "sign": [
+            "",
+            "K",
+            ""
+        ],
+        "rate": {
+            "ats": 22.07,
+            "ets2": 25.87
+        }
     }
 ]
