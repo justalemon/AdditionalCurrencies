@@ -11,7 +11,7 @@ def compile_currencies(game):
     with open("currencies.json", encoding="utf-8") as file:
         currencies = json.load(file)
 
-    currencies.sort(key=lambda x: x["iso"])
+    currencies.sort(key=lambda x: x["name"])
 
     new = {}
     i = 1
