@@ -1508,5 +1508,83 @@
             "ats": 0.39,
             "ets2": 0.45
         }
+    },
+    {
+        "name": "Panamanian Balboa",
+        "iso": "PAB",
+        "sign": [
+            "",
+            "B/. ",
+            ""
+        ],
+        "rate": {
+            "ats": 1,
+            "ets2": 1.17
+        }
+    },
+    {
+        "name": "Peruvian Sol",
+        "iso": "PEN",
+        "sign": [
+            "",
+            "S/",
+            ""
+        ],
+        "rate": {
+            "ats": 3.761,
+            "ets2": 4.41
+        }
+    },
+    {
+        "name": "Papua New Guinean Kina",
+        "iso": "PGK",
+        "sign": [
+            "",
+            "K",
+            ""
+        ],
+        "rate": {
+            "ats": 3.53,
+            "ets2": 4.14
+        }
+    },
+    {
+        "name": "Philippine Peso",
+        "iso": "PHP",
+        "sign": [
+            "",
+            "P",
+            ""
+        ],
+        "rate": {
+            "ats": 48.53,
+            "ets2": 56.88
+        }
+    },
+    {
+        "name": "Pakistani Rupee",
+        "iso": "PKR",
+        "sign": [
+            "",
+            "Rs ",
+            ""
+        ],
+        "rate": {
+            "ats": 153.10,
+            "ets2": 179.40
+        }
+    },
+    {
+        "name": "Paraguayan Guarani",
+        "iso": "PYG",
+        "sign": [
+            "",
+            "G",
+            ""
+        ],
+        "rate": {
+            "ats": 6450.29,
+            "ets2": 7559.42
+        }
     }
 ]
