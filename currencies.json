@@ -1742,5 +1742,96 @@
             "ats": 14.92,
             "ets2": 17.48
         }
+    },
+    {
+        "name": "Thai Baht",
+        "iso": "THB",
+        "sign": [
+            "",
+            "B",
+            ""
+        ],
+        "rate": {
+            "ats": 31.31,
+            "ets2": 36.68
+        }
+    },
+    {
+        "name": "Tajikistani Somoni",
+        "iso": "TJS",
+        "sign": [
+            "",
+            "",
+            " SM"
+        ],
+        "rate": {
+            "ats": 11.40,
+            "ets2": 13.36
+        }
+    },
+    {
+        "name": "Turkmenistan Manat",
+        "iso": "TMT",
+        "sign": [
+            "",
+            "T",
+            ""
+        ],
+        "rate": {
+            "ats": 3.51,
+            "ets2": 4.11
+        }
+    },
+    {
+        "name": "Tunisian Dinar",
+        "iso": "TND",
+        "sign": [
+            "",
+            "DT",
+            ""
+        ],
+        "rate": {
+            "ats": 2.79,
+            "ets2": 3.27
+        }
+    },
+    {
+        "name": "Tongan Pa'anga",
+        "iso": "TOP",
+        "sign": [
+            "",
+            "T$",
+            ""
+        ],
+        "rate": {
+            "ats": 2.29,
+            "ets2": 2.68
+        }
+    },
+    {
+        "name": "Trinidad and Tobago Dollar",
+        "iso": "TTD",
+        "sign": [
+            "",
+            "TT$",
+            ""
+        ],
+        "rate": {
+            "ats": 6.80,
+            "ets2": 7.96
+        }
+    },
+    {
+        "name": "Tanzanian Shilling",
+        "iso": "TZS",
+        "sign": [
+            "",
+            "TSh",
+            ""
+        ],
+        "rate": {
+            "ats": 2319.00,
+            "ets2": 2717.32
+        }
     }
 ]
