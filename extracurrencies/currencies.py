@@ -1,6 +1,32 @@
 import json
+import sys
 
 from colorama import Fore, Style
+
+INVALID = {
+    "BOV": "For use in Country only, No EUR/USD Conversion",
+    "CHE": "Complementary Currency",
+    "CHW": "Complementary Currency",
+    "COU": "For use in Country only, No EUR/USD Conversion",
+    "CUC": "Demonetization in progress",
+    "USN": "Same as USD, No EUR Conversion",
+    "UYI": "For use in Country only, No EUR/USD Conversion",
+    "UYW": "For use in Country only, No EUR/USD Conversion",
+    "XAG": "Silver, one troy ounce",
+    "XAU": "Gold, one troy ounce",
+    "XBA": "Unused European Bond Market Unit: EURCO",
+    "XBB": "Unused European Bond Market Unit: E.M.U.-6",
+    "XBC": "Unused European Bond Market Unit: E.U.A.-9",
+    "XBD": "Unused European Bond Market Unit: E.U.A.-17",
+    "XDR": "Special Drawing Rights, International Monetary Fund",
+    "XPD": "Palladium, one troy ounce",
+    "XPT": "Platinum, one troy ounce",
+    "XSU": "SUCRE, not a convertible currency per design",
+    "XTS": "Code used for testing",
+    "XUA": "Internal use by African Development Bank",
+    "XXX": "No Currency",
+    "ZWL": "Obsolete"
+}
 
 
 def load_currencies():
@@ -45,7 +71,12 @@ def compile_currencies(game, currencies, iso):
         done.append(currency["iso"])
 
     for code in (x for x in iso if x not in done):
-        print(f"{Fore.YELLOW}Warning{Style.RESET_ALL}: Currency information for ISO Code {Fore.LIGHTMAGENTA_EX}"
-              f"{code}{Style.RESET_ALL} was not found!")
+        if code in INVALID:
+            print(f"{Fore.BLUE}Info{Style.RESET_ALL}: Currency with ISO Code {Fore.LIGHTMAGENTA_EX}"
+                  f"{code}{Style.RESET_ALL} was marked as invalid: {INVALID[code]}")
+        else:
+            print(f"{Fore.RED}Error{Style.RESET_ALL}: Currency information for ISO Code {Fore.LIGHTMAGENTA_EX}"
+                  f"{code}{Style.RESET_ALL} was not found!")
+            sys.exit(2)
 
     return new
