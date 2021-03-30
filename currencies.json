@@ -1430,5 +1430,70 @@
             "ats": 69.96,
             "ets2": 82.33
         }
+    },
+    {
+        "name": "Namibian Dollar",
+        "iso": "NAD",
+        "sign": [
+            "",
+            "N$",
+            ""
+        ],
+        "rate": {
+            "ats": 14.96,
+            "ets2": 17.54
+        }
+    },
+    {
+        "name": "Nigerian Naira",
+        "iso": "NGN",
+        "sign": [
+            "",
+            "N",
+            ""
+        ],
+        "rate": {
+            "ats": 380.00,
+            "ets2": 445.59
+        }
+    },
+    {
+        "name": "Nicaraguan Cordoba",
+        "iso": "NIO",
+        "sign": [
+            "",
+            "C$",
+            ""
+        ],
+        "rate": {
+            "ats": 35.14,
+            "ets2": 41.21
+        }
+    },
+    {
+        "name": "Nepalese Rupee",
+        "iso": "NPR",
+        "sign": [
+            "",
+            "Rs ",
+            ""
+        ],
+        "rate": {
+            "ats": 117.74,
+            "ets2": 138.08
+        }
+    },
+    {
+        "name": "New Zealand Dollar",
+        "iso": "NZD",
+        "sign": [
+            "",
+            "NZ$",
+            ""
+        ],
+        "rate": {
+            "ats": 1.43,
+            "ets2": 1.68
+        }
     }
 ]
