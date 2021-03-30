@@ -639,19 +639,6 @@
         }
     },
     {
-        "name": "Belize Dollar",
-        "iso": "BZD",
-        "sign": [
-            "",
-            "BZ$",
-            ""
-        ],
-        "rate": {
-            "ats": 2.02,
-            "ets2": 2.37
-        }
-    },
-    {
         "name": "Congolese Franc",
         "iso": "CDF",
         "sign": [
@@ -805,19 +792,6 @@
         "rate": {
             "ats": 2.07,
             "ets2": 2.44
-        }
-    },
-    {
-        "name": "Falkland Islands Pound",
-        "iso": "FKP",
-        "sign": [
-            "",
-            "FK£",
-            ""
-        ],
-        "rate": {
-            "ats": 0.72,
-            "ets2": 0.85
         }
     },
     {
@@ -1120,19 +1094,6 @@
         }
     },
     {
-        "name": "North Korean Won",
-        "iso": "KPW",
-        "sign": [
-            "",
-            "",
-            " KPW"
-        ],
-        "rate": {
-            "ats": 899.96,
-            "ets2": 1060.28
-        }
-    },
-    {
         "name": "Kuwaiti Dinar",
         "iso": "KWD",
         "sign": [
@@ -1169,19 +1130,6 @@
         "rate": {
             "ats": 424.65,
             "ets2": 499.94
-        }
-    },
-    {
-        "name": "Lao Kip",
-        "iso": "LAK",
-        "sign": [
-            "",
-            "",
-            " K"
-        ],
-        "rate": {
-            "ats": 9395.00,
-            "ets2": 11056.79
         }
     },
     {
@@ -1637,19 +1585,6 @@
         "rate": {
             "ats": 3.75,
             "ets2": 4.39
-        }
-    },
-    {
-        "name": "Solomon Islands Dollar",
-        "iso": "SBD",
-        "sign": [
-            "",
-            "SI$",
-            ""
-        ],
-        "rate": {
-            "ats": 7.98,
-            "ets2": 9.35
         }
     },
     {
