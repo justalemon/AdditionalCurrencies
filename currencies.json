@@ -1261,5 +1261,174 @@
             "ats": 4.52,
             "ets2": 5.32
         }
+    },
+    {
+        "name": "Moroccan Dirham",
+        "iso": "MAD",
+        "sign": [
+            "",
+            "",
+            " DH"
+        ],
+        "rate": {
+            "ats": 9.06,
+            "ets2": 10.66
+        }
+    },
+    {
+        "name": "Moldovan Leu",
+        "iso": "MDL",
+        "sign": [
+            "",
+            "L",
+            ""
+        ],
+        "rate": {
+            "ats": 18.01,
+            "ets2": 21.20
+        }
+    },
+    {
+        "name": "Malagasy Ariary",
+        "iso": "MGA",
+        "sign": [
+            "",
+            "Ar ",
+            ""
+        ],
+        "rate": {
+            "ats": 3805.00,
+            "ets2": 4477.95
+        }
+    },
+    {
+        "name": "Macedonian Denar",
+        "iso": "MKD",
+        "sign": [
+            "",
+            "",
+            " den"
+        ],
+        "rate": {
+            "ats": 52.39,
+            "ets2": 61.65
+        }
+    },
+    {
+        "name": "Myanmar Kyat",
+        "iso": "MMK",
+        "sign": [
+            "",
+            "K",
+            ""
+        ],
+        "rate": {
+            "ats": 1410.72,
+            "ets2": 1660.22
+        }
+    },
+    {
+        "name": "Mongolian Togrog",
+        "iso": "MNT",
+        "sign": [
+            "",
+            "K",
+            ""
+        ],
+        "rate": {
+            "ats": 2845.77,
+            "ets2": 3352.87
+        }
+    },
+    {
+        "name": "Macau Pataca",
+        "iso": "MOP",
+        "sign": [
+            "",
+            "MOP$",
+            ""
+        ],
+        "rate": {
+            "ats": 8.01,
+            "ets2": 9.43
+        }
+    },
+    {
+        "name": "Mauritanian Ouguiya",
+        "iso": "MRU",
+        "sign": [
+            "",
+            "UM",
+            ""
+        ],
+        "rate": {
+            "ats": 36.05,
+            "ets2": 42.42
+        }
+    },
+    {
+        "name": "Mauritian Rupee",
+        "iso": "MUR",
+        "sign": [
+            "",
+            "Rs ",
+            ""
+        ],
+        "rate": {
+            "ats": 40.34,
+            "ets2": 47.48
+        }
+    },
+    {
+        "name": "Maldivian Rufiyaa",
+        "iso": "MVR",
+        "sign": [
+            "",
+            "Rf ",
+            ""
+        ],
+        "rate": {
+            "ats": 15.46,
+            "ets2": 18.20
+        }
+    },
+    {
+        "name": "Malawian Kwacha",
+        "iso": "MWK",
+        "sign": [
+            "",
+            "K",
+            ""
+        ],
+        "rate": {
+            "ats": 785.00,
+            "ets2": 923.95
+        }
+    },
+    {
+        "name": "Mexican Unidad de Inversion",
+        "iso": "MXV",
+        "sign": [
+            "",
+            "",
+            " UDI"
+        ],
+        "rate": {
+            "ats": 3.55,
+            "ets2": 3.68
+        }
+    },
+    {
+        "name": "Mozambican Metical",
+        "iso": "MZN",
+        "sign": [
+            "",
+            "MT",
+            ""
+        ],
+        "rate": {
+            "ats": 69.96,
+            "ets2": 82.33
+        }
     }
 ]
