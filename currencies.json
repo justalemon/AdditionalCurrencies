@@ -1599,5 +1599,31 @@
             "ats": 3.64,
             "ets2": 4.27
         }
+    },
+    {
+        "name": "Serbian Dinar",
+        "iso": "RSD",
+        "sign": [
+            "",
+            "",
+            " din"
+        ],
+        "rate": {
+            "ats": 100.23,
+            "ets2": 117.42
+        }
+    },
+    {
+        "name": "Rwandan Franc",
+        "iso": "RWF",
+        "sign": [
+            "",
+            "FRw",
+            ""
+        ],
+        "rate": {
+            "ats": 980.00,
+            "ets2": 1148.24
+        }
     }
 ]
