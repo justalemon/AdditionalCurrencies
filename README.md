@@ -1,6 +1,6 @@
 # ExtraCurrencies<br>[![AppVeyor][appveyor-img]][appveyor-url] [![Patreon][patreon-img]][patreon-url] [![PayPal][paypal-img]][paypal-url] [![Discord][discord-img]][discord-url]
 
-ExtraCurrencies (previously Additional Currencies) is a mod for Euro Truck Simulator 2 and American Truck Simulator that updates the exchange rate of existing currencies and adds new ones.
+ExtraCurrencies (previously Additional Currencies) is a mod for Euro Truck Simulator 2 and American Truck Simulator that updates the exchange rate of the currencies present in the base game(s) and adds all of the ones missing from ISO 4217:2015, the international standard for currency codes (except those demonetized, no longer in circulation or not available to the public).
 
 ## Download
 
