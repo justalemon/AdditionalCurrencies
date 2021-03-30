@@ -1625,5 +1625,187 @@
             "ats": 980.00,
             "ets2": 1148.24
         }
+    },
+    {
+        "name": "Saudi Riyal",
+        "iso": "SAR",
+        "sign": [
+            "",
+            "",
+            " SAR"
+        ],
+        "rate": {
+            "ats": 3.75,
+            "ets2": 4.39
+        }
+    },
+    {
+        "name": "Solomon Islands Dollar",
+        "iso": "SBD",
+        "sign": [
+            "",
+            "SI$",
+            ""
+        ],
+        "rate": {
+            "ats": 7.98,
+            "ets2": 9.35
+        }
+    },
+    {
+        "name": "Solomon Islands Dollar",
+        "iso": "SBD",
+        "sign": [
+            "",
+            "SI$",
+            ""
+        ],
+        "rate": {
+            "ats": 7.98,
+            "ets2": 9.35
+        }
+    },
+    {
+        "name": "Seychelles Rupee",
+        "iso": "SCR",
+        "sign": [
+            "",
+            "SR",
+            ""
+        ],
+        "rate": {
+            "ats": 7.98,
+            "ets2": 9.35
+        }
+    },
+    {
+        "name": "Sudanese Pound",
+        "iso": "SDG",
+        "sign": [
+            "",
+            "£SD",
+            ""
+        ],
+        "rate": {
+            "ats": 381.50,
+            "ets2": 446.95
+        }
+    },
+    {
+        "name": "Saint Helena pound",
+        "iso": "SHP",
+        "sign": [
+            "",
+            "SHP£",
+            ""
+        ],
+        "rate": {
+            "ats": 0.72,
+            "ets2": 0.85
+        }
+    },
+    {
+        "name": "Sierra Leonean Leone",
+        "iso": "SLL",
+        "sign": [
+            "",
+            "",
+            " Le"
+        ],
+        "rate": {
+            "ats": 10240.00,
+            "ets2": 11998.72
+        }
+    },
+    {
+        "name": "Somali Shilling",
+        "iso": "SOS",
+        "sign": [
+            "",
+            "Sh.So. ",
+            ""
+        ],
+        "rate": {
+            "ats": 584.00,
+            "ets2": 684.21
+        }
+    },
+    {
+        "name": "Surinamese Dollar",
+        "iso": "SOS",
+        "sign": [
+            "",
+            "Sr$",
+            ""
+        ],
+        "rate": {
+            "ats": 14.15,
+            "ets2": 16.58
+        }
+    },
+    {
+        "name": "South Sudanese Pound",
+        "iso": "SSP",
+        "sign": [
+            "",
+            "SS£",
+            ""
+        ],
+        "rate": {
+            "ats": 130.26,
+            "ets2": 153.45
+        }
+    },
+    {
+        "name": "São Tomé and Príncipe Dobra",
+        "iso": "STN",
+        "sign": [
+            "",
+            "Db ",
+            ""
+        ],
+        "rate": {
+            "ats": 21.03,
+            "ets2": 24.50
+        }
+    },
+    {
+        "name": "Salvadoran Colon",
+        "iso": "SVC",
+        "sign": [
+            "",
+            "",
+            "SVC"
+        ],
+        "rate": {
+            "ats": 8.75,
+            "ets2": 10.25
+        }
+    },
+    {
+        "name": "Syrian Pound",
+        "iso": "SYP",
+        "sign": [
+            "",
+            "LS",
+            ""
+        ],
+        "rate": {
+            "ats": 3650,
+            "ets2": 4273
+        }
+    },
+    {
+        "name": "Swazi Lilangeni",
+        "iso": "SZL",
+        "sign": [
+            "",
+            "E",
+            ""
+        ],
+        "rate": {
+            "ats": 14.92,
+            "ets2": 17.48
+        }
     }
 ]
