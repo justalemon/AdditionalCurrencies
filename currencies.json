@@ -1832,5 +1832,57 @@
             "ats": 2319.00,
             "ets2": 2717.32
         }
+    },
+    {
+        "name": "Ukrainian Hryvnia",
+        "iso": "UAH",
+        "sign": [
+            "",
+            "",
+            " UAH"
+        ],
+        "rate": {
+            "ats": 27.89,
+            "ets2": 32.68
+        }
+    },
+    {
+        "name": "Ugandan Shilling",
+        "iso": "UGX",
+        "sign": [
+            "",
+            "",
+            " USh"
+        ],
+        "rate": {
+            "ats": 3659.92,
+            "ets2": 4288.69
+        }
+    },
+    {
+        "name": "Uruguayan Peso",
+        "iso": "UYU",
+        "sign": [
+            "",
+            "$U",
+            ""
+        ],
+        "rate": {
+            "ats": 44.53,
+            "ets2": 52.18
+        }
+    },
+    {
+        "name": "Uzbekistani Som",
+        "iso": "UZS",
+        "sign": [
+            "",
+            "",
+            " so'm"
+        ],
+        "rate": {
+            "ats": 10485.00,
+            "ets2": 12284.75
+        }
     }
 ]
