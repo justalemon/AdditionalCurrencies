@@ -5,6 +5,7 @@ from colorama import init, Fore, Style
 from .arguments import args
 from .currencies import load_currencies, compile_currencies
 from .iso import get_iso_currencies
+from .manifest import compile_manifest
 from .processing import process_files
 
 
@@ -15,6 +16,7 @@ def main():
     init()
     print("Starting ExtraCurrencies Build System")
 
+    metadata = compile_manifest(args.appveyor)
     iso = get_iso_currencies()
     currencies = load_currencies()
 
@@ -30,7 +32,7 @@ def main():
                       output="/universal/def/economy_data.sii",
                       stype="economy_data", sname="economy.data.storage",
                       extra=game_currencies)
-        process_files(["source/manifest.json"],
+        process_files([metadata],
                       output="/universal/manifest.sii",
                       stype="mod_package", sname=".universal")
         process_files(["source/versions.json"],

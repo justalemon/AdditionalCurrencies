@@ -10,6 +10,8 @@ def parse_arguments():
                         help="the game(s) to target")
     parser.add_argument("-v", "--verbose", action="store_true",
                         help="shows verbose information for SII writing")
+    parser.add_argument("--appveyor", action="store_true",
+                        help="uses the AppVeyor version environment variable")
 
     return parser.parse_args()
 
