@@ -10,14 +10,24 @@ def process_files(sources, output, stype, sname, extra={}):
     """
     Processes the contents of the file(s).
     """
-    print(f"Processing files {Fore.LIGHTGREEN_EX}{sources}{Style.RESET_ALL} "
-          f"to {Fore.LIGHTRED_EX}{output}{Style.RESET_ALL}")
+    files = ", ".join(x for x in sources if isinstance(x, str)) or "-"
+    dicts = [x for x in sources if isinstance(x, dict)]
+    print(f"Processing files {Fore.LIGHTGREEN_EX}{files}{Style.RESET_ALL} and {Fore.LIGHTGREEN_EX}{len(dicts)} "
+          f"{Style.RESET_ALL}dictionaries to {Fore.LIGHTRED_EX}{output}{Style.RESET_ALL}")
 
     # Make a dict and load the source content
     content = {}
     for source in sources:
-        with open(source) as file:
-            content.update(json.load(file))
+        if isinstance(source, str):
+            with open(source) as file:
+                content.update(json.load(file))
+        elif isinstance(source, dict):
+            content.update(source)
+        else:
+            name = content.__class__.__name__
+            print(f"{Fore.RED}Error{Style.RESET_ALL}: Expected str or dict, found {name}")
+            sys.exit(4)
+
     content.update(extra)
     # Now, save the SII content
     sii_str = from_dict(content, stype, sname)
