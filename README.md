@@ -10,12 +10,12 @@ ExtraCurrencies (previously Additional Currencies) is a mod for Euro Truck Simul
 
 ## Installation
 
-* **Steam**: Click Subscribe on the Mod Page(s) and enable it on the profile mods section
-* **Manual**: Copy the files to `<Documents Folder>\Euro Truck Simulator 2\mod` and/or `<Documents Folder>\American Truck Simulator\mod` and enable it on the profile mods section
+* **Steam**: Click Subscribe on the Mod Page(s) and enable it on the mod manager
+* **Manual**: Copy the files to `<Documents Folder>\Euro Truck Simulator 2\mod` and/or `<Documents Folder>\American Truck Simulator\mod` and enable it on the mod manager
 
 ## Usage
 
-On your **Gameplay** options, scroll down to **Regional Settings** and change the **Displayed currency** option.
+On your **Gameplay** options, scroll down to **Regional Settings** and change the **Displayed currency** option to the currency that you want to use. You can change this option any time.
 
 [appveyor-img]: https://img.shields.io/appveyor/ci/justalemon/extracurrencies.svg?label=appveyor
 [appveyor-url]: https://ci.appveyor.com/project/justalemon/extracurrencies
