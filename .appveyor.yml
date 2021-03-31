@@ -16,7 +16,7 @@ install:
 
 # Build the SII files
 build_script:
-  - python -m extracurrencies ats ets2
+  - python -m extracurrencies ats ets2 --appveyor
 
 # Package them to ZIP for the Mods directory and 7z for Steam
 after_build:
