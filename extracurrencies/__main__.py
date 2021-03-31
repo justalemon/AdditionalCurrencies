@@ -1,3 +1,4 @@
+import shutil
 from pathlib import Path
 
 from colorama import init, Fore, Style
@@ -38,6 +39,9 @@ def main():
         process_files(game, ["source/versions.json"],
                       output="/versions.sii",
                       stype="package_version_info", sname=".universal")
+
+        print(f"Copying {Fore.LIGHTGREEN_EX}icon.jpg{Style.RESET_ALL} to the build directory")
+        shutil.copyfile("icon.jpg", f"build/{game}/universal/icon.jpg")
 
         print(f"Completed processing for game {Fore.LIGHTBLUE_EX}{game.upper()}{Style.RESET_ALL}")
 
