@@ -43,6 +43,9 @@ def main():
         print(f"Copying {Fore.LIGHTGREEN_EX}icon.jpg{Style.RESET_ALL} to the build directory")
         shutil.copyfile("icon.jpg", f"build/{game}/universal/icon.jpg")
 
+        print(f"Creating description file {Fore.LIGHTGREEN_EX}description.txt{Style.RESET_ALL}")
+        open(f"build/{game}/universal/description.txt", "w").close()
+
         print(f"Completed processing for game {Fore.LIGHTBLUE_EX}{game.upper()}{Style.RESET_ALL}")
 
 
