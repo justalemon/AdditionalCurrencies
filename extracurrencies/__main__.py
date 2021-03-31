@@ -28,14 +28,14 @@ def main():
         print(f"Compiling list of Currencies for game {Fore.LIGHTBLUE_EX}{game.upper()}{Style.RESET_ALL}")
         game_currencies = compile_currencies(game, currencies, iso)
 
-        process_files(["source/base.json", f"source/base_{game}.json"],
+        process_files(game, ["source/base.json", f"source/base_{game}.json"],
                       output="/universal/def/economy_data.sii",
                       stype="economy_data", sname="economy.data.storage",
                       extra=game_currencies)
-        process_files([metadata],
+        process_files(game, [metadata],
                       output="/universal/manifest.sii",
                       stype="mod_package", sname=".universal")
-        process_files(["source/versions.json"],
+        process_files(game, ["source/versions.json"],
                       output="/versions.sii",
                       stype="package_version_info", sname=".universal")
 
